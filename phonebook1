@@ -1,0 +1,9 @@
+import csv
+#Using the csv library to save names and number in a phonebook.csv file
+with open("phonebook.csv", "a") as file:
+    name = input("Name: ")
+    number = input("Number: ")
+
+    writer = csv.DictWriter(file, fieldnames=["name", "number"])
+    writer.writerow({"name": name, "number": number})
+
