@@ -1,6 +1,7 @@
 calculation_to_seconds = 24 * 60 
 
 user_input = input("Hey user,enter number of days i will convert to minutes!\n")
+
 #function parameters
 def days_to_units(num_of_days):
      return  (f"{num_of_days} days are { num_of_days * calculation_to_seconds} minutes")
@@ -35,4 +36,6 @@ while user_input != "exit":
         #list------make sure there are spaces between the numbers
         for number_of_days in set(list_of_days):
             validate_and_execute() 
+
+            #input a list of numbers to convert days to minutes
 

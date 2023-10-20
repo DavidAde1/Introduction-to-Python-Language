@@ -1,4 +1,4 @@
-
+#while loop to print the number of # specified in the Height input
 while True:
     try:
         n = int(input("Height: "))
