@@ -1,4 +1,5 @@
 # Introduction-to-Python-Language
+<<<<<<< HEAD
 ## Agree.py
 This code prompts the user to input whether they agree or not by displaying the message "Do you Agree?" and then waits for the user to input a response.
 
@@ -57,3 +58,6 @@ This code defines a set of three elements, "January", "February", and "March", a
 Then, the code adds a new element "April" to the set using the add() method and prints out the updated set.
 
 Finally, the code removes the element "March" from the set using the remove() method and prints out the updated set.
+=======
+
+>>>>>>> de2b3205b568cebfaff7208babd0038b325c4af0
